@@ -44,9 +44,9 @@ MEMORY
 {
     /* Application stored in and executes from internal flash */
     /* Flash Size 128 KB */
-    FLASH (RX) : ORIGIN = 0x0, LENGTH = 0x0001FFB0
+    FLASH (RX) : ORIGIN = 0x0, LENGTH = 0x0001FFAC
     /* Customer Configuration Area and Bootloader Backdoor configuration in flash, 80 bytes*/
-    FLASH_CCFG (RX) : ORIGIN = 0x1FFB0, LENGTH = 84
+    FLASH_CCFG (RX) : ORIGIN = 0x1FFAC, LENGTH = 84
     /* Application uses internal RAM for data */
     /* RAM Size 20 KB */
     SRAM (RWX) : ORIGIN = 0x20000000, LENGTH = 0x5000
