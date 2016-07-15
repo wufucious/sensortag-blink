@@ -45,3 +45,8 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.bin
+examples/blink_led/projects/gcc/.cproject
+*.map
+*.o
+*.elf
